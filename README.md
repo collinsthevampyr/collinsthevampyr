@@ -36,16 +36,11 @@ To leverage my expertise as a Cyber Security Analyst to effectively identify vul
 ### SIEM
 - ![Microsoft Sentinel](https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?style=for-the-badge&logo=Microsoft&logoColor=white)
 - ![Splunk](https://img.shields.io/badge/-Splunk-000000?style=for-the-badge&logo=Splunk&logoColor=white)
-- ![Elastic](https://img.shields.io/badge/-Elastic-005571?style=for-the-badge&logo=Elastic&logoColor=white)
+- [![Google Chronicle](https://img.shields.io/badge/-Google_Chronicle-blue?style=for-the-badge&logo=google&logoColor=white)](https://example.com/google-chronicle)
 
 ## Certifications
 
-- ![Security+](https://img.shields.io/badge/-Security%2B-FF0000?style=for-the-badge&logo=CompTIA&logoColor=white)
-- ![Network+](https://img.shields.io/badge/-Network%2B-007ACC?style=for-the-badge&logo=CompTIA&logoColor=white)
-- ![A+](https://img.shields.io/badge/-A%2B-4D4D4D?style=for-the-badge&logo=CompTIA&logoColor=white)
-- ![CDSA](https://img.shields.io/badge/-CDSA-006400?style=for-the-badge&logoColor=white)
-- ![CCD](https://img.shields.io/badge/-CCD-000080?style=for-the-badge&logoColor=white)
-
+- [![Google Cybersecurity Certification](https://img.shields.io/badge/-Google_Cybersecurity_Certification-blue?style=for-the-badge&logo=google&logoColor=white)](https://example.com/google-cybersecurity-certification)
 ## Projects
 
 - Detection Lab
