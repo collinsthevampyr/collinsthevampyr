@@ -40,7 +40,7 @@ To leverage my expertise as a Cyber Security Analyst to effectively identify vul
 
 ## Certifications
 
-- [![Google Cybersecurity Certification](https://img.shields.io/badge/-Google_Cybersecurity_Certification-blue?style=for-the-badge&logo=google&logoColor=white)](https://example.com/google-cybersecurity-certification)
+- [![Google Cybersecurity Certification](https://img.shields.io/badge/-Google_Cybersecurity_Certification-blue?style=for-the-badge&logo=google&logoColor=white)](https://coursera.org/share/b66e0fb4bddd7f34ab6d579ef1d1e9bb)
 ## Projects
 
 - Detection Lab
