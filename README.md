@@ -26,6 +26,8 @@ To leverage my expertise as a Cyber Security Analyst to effectively identify vul
 - ![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?style=for-the-badge&logo=Wireshark&logoColor=white)
 - ![Suricata](https://img.shields.io/badge/-Suricata-EF3B2D?style=for-the-badge&logo=Suricata&logoColor=white)
 - [![NMAP](https://img.shields.io/badge/-NMAP-4d4d4d?style=for-the-badge&logo=nmap&logoColor=white)](https://example.com/nmap)
+- [![SNORT](https://img.shields.io/badge/-SNORT-orange?style=for-the-badge&logo=snort&logoColor=white)](https://example.com/snort)
+
 
 ### Endpoint
 - ![Microsoft Defender for Endpoint](https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?style=for-the-badge&logo=Microsoft&logoColor=white)
