@@ -1,6 +1,6 @@
 # Hello, I'm Collins Erughe
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/collins-erughe-3607a1186/))
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/collins-erughe-3607a1186/)
 
 ---
 
