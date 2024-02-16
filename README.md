@@ -6,11 +6,12 @@
 
 ## Introduction
 
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
+As a dedicated Cyber Security Analyst, my mission is to empower businesses to safeguard their most valuable asset: data. In today's interconnected digital landscape, the threat of cyber attacks looms large, posing risks not only to the organizations themselves but also to the individuals and entities they collaborate with. With a steadfast commitment to proactive defense strategies and cutting-edge technologies, I strive to deliver comprehensive protection, ensuring peace of mind for businesses and their partners alike. By leveraging a combination of expertise, innovation, and industry best practices, I am dedicated to fortifying defenses, mitigating risks, and fostering a resilient cyber environment for all stakeholders. Let's work together to secure your data and uphold the integrity of your operations.
 
 ## Objective
 
-My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+To leverage my expertise as a Cyber Security Analyst to effectively identify vulnerabilities, implement robust security measures, and provide proactive guidance to businesses, enabling them to safeguard their data assets and foster a secure environment for themselves and their collaborators. By staying abreast of emerging threats, employing advanced technologies, and collaborating cross-functionally, I aim to contribute to the continuous enhancement of cyber resilience within organizations, mitigating risks and ensuring the confidentiality, integrity, and availability of critical information resources.
+
 
 ## Skills
 
