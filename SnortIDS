@@ -1,0 +1,66 @@
+Snort IDS Project Documentation
+
+Requirements
+- A network to install Snort
+- A machine on the same network to simulate a vulnerable machine
+- Another machine on a different network to simulate an attacker or external machine
+In this setup, I utilized a Kali Linux machine and Metasploitable 2 to simulate the host network and vulnerable machine for Snort installation. Additionally, I used Ubuntu as the attacker machine to simulate the attack.
+
+- Project Outline
+I installed Snort, configured Snort rules, and created custom rules using Snorpy to enhance the Snort IDS.
+
+- Setting Up Snort on a Local Network
+Install Snort:
+
+- Command: sudo apt-get install snort -y
+During installation, specify the network for Snort and the IP range it should monitor.
+Verify Installation:
+
+- Check if Snort is installed by running snort -V in the terminal.
+Enable Promiscuous Mode:
+
+- Ensure promiscuous mode is enabled on the network interface.
+Configure Snort:
+
+- Snort’s configuration file is located in the /etc/snort directory.
+The rules are saved in the rules directory.
+The primary configuration file is snort.conf in the /etc/snort directory.
+Make a backup of snort.conf before editing.
+Edit the configuration file with sudo privileges using your preferred editor (vim or nano).
+Set Network Variables:
+
+- Locate the ipvar HOME_NET line and specify the subnet you want Snort to monitor.
+Leave the EXTERNAL_NET variable as any to monitor attacks from any network.
+Critical Infrastructure Monitoring:
+
+- Specify critical infrastructure (e.g., DNS_SERVERS, SMTP_SERVERS, SQL_SERVERS) for Snort to monitor.
+Specify Rules Path:
+
+- Define the path to your rules file in the configuration.
+Custom Rules:
+
+- The local.rules file is where custom rules are stored. This file is initially empty.
+Test Configuration:
+
+- Run sudo snort -T -c /etc/snort/snort.conf to test the configuration file.
+Disable Default Rules:
+
+- Edit the configuration file to comment out default rules using the # symbol.
+Use vim to show line numbers for easier editing.
+Create Custom Rules:
+
+- Example rule to detect ICMP pings:
+bash
+Copy code
+alert icmp any any -> $HOME_NET any (msg:"New ICMP Ping Detected"; sid:1000001; rev:1;)
+This rule alerts on any ICMP ping from any IP and any port to the home network.
+Run Snort in Alert Mode:
+
+- Command: sudo snort -q -l /var/log/snort -i enp0s3 -A console -c /etc/snort/snort.conf
+Test Snort:
+
+- Ping the network with Snort installed from an external machine to verify the alert rule.
+Monitor SSH Connections:
+
+- Create a new rule in the local.rules file to monitor for SSH connections.
+By following these steps, I successfully set up and configured Snort IDS, created custom rules, and tested the system to ensure it effectively monitors and alerts on network activities.
