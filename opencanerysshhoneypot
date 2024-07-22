@@ -1,0 +1,59 @@
+REQUIREMENTS 
+1.A server with ssh, I am using ubuntu on google coud
+2.I found an awesome repository on github called opencanary honeypot, and that’s what I’ll be using for this project
+3.And of course my home lab already set up
+
+
+
+STEPS
+1.You can get the OpenCanery honeypot from this github repository https://github.com/thinkst/opencanary 
+
+
+
+2.I’m installing on ubuntu server, following the documentation - use:
+
+$ sudo apt-get install python3-dev python3-pip python3-virtualenv python3-venv python3-scapy libssl-dev libpcap-dev - to install python dependencies
+
+
+
+
+$ virtualenv env/ - to set up the virtual environment 
+
+$ . env/bin/activate - to activate the virtual environment
+
+
+$ pip install opencanary - to install open canery in the virtual environment
+
+3.Next I configured open canery
+To create an initial configuration, run as root (you may be prompted for a sudo password):
+
+
+This creates the path and file /etc/opencanaryd/opencanary.conf. You must now edit the config file to determine which services and logging options you want to enable.
+
+
+
+4.But first we have to change the SSH port because we want attackers trying to access our new ssh port in port 22.  To do this we have to edit it with nano  in the /etc/ssh/sshd_config
+
+
+After changing ssh port then you can go into canery config file and enable ssh on port 22 so when the attacker connects to ssh on our network on port 22 they’ll be connected to our honeypot
+
+
+
+Now run with 
+$ . env/bin/activate
+$ opencanaryd --start
+
+
+Now canery is running and anytime an attacker attempt to ssh port 22 or gain access it would be into the honeypot
+5.If we scan the server for open port we see our ssh port open in port 22
+ 
+
+Now lets try connecting to the port as an attacker would and see what our honeypot would log
+
+
+
+This is the result logged in the honeypot
+
+
+
+And as expected the honeypot has logged our login attempt. We can change the password of the ssh for the honeypot to something easier so that we can monitor what the attacker would do in our network.
